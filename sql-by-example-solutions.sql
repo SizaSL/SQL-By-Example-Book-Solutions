@@ -38,3 +38,26 @@ FROM Ship AS s
 JOIN Manufacturer AS m ON s.manufacturer_id = m.manufacturer_id
 WHERE m.state = 'CA';
 
+--Ch 1.6.2
+--Exe 2.1
+SELECT m.name
+FROM Ship AS s
+JOIN Manufacturer AS m ON s.manufacturer_id = m.manufacturer_id
+WHERE s.class = 2;
+
+--Exe 2.2
+SELECT m.name
+FROM Ship AS s
+JOIN Manufacturer AS m ON s.manufacturer_id = m.manufacturer_id
+WHERE s.capacity >= 100000;
+
+--Exe 2.3
+SELECT *
+FROM Ship AS s
+RIGHT JOIN Manufacturer AS m ON s.manufacturer_id = m.manufacturer_id
+WHERE purch_date > '1975-12-31' AND state NOT IN ('CA', 'NY', 'WA', 'CT', 'AK');
+
+--Exe 2.4
+SELECT m.name
+FROM Manufacturer AS m
+WHERE m.manufacturer_id NOT IN (SELECT DISTINCT manufacturer_id FROM Ship);
