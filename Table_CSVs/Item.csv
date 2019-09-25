@@ -1,17 +1,17 @@
 ﻿item_no,item_type,description,weight
-2101,FP,Beans,500.00
-2109,FP,Corn Meal,200.00
-2123,FP,Rice,300.00
-2125,FP,Oats,335.00
-3212,BL,Cement,2000.00
-3223,BL,Concrete Forms,500.00
-3297,BL,Steel Beam,2000.00
-3299,BL,Small Steel Plate,750.00
-4521,WP,"5/8"" Plywood - 200 sheets/pallet",800.00
-4532,WP,Beam,100.00
-4533,WP,2x4x8 Pine Boards,250.00
-4534,WP,"3/4"" Plywood - 200 sheets/pallet",1200.00
-7821,AUTO,Toyota Camry,2000.00
-7823,AUTO,Mercury Sable,2500.00
-7829,AUTO,Mercedes,2550.00
-7830,AUTO,Honda Accord,1960.00
+2101,FP,Beans,500
+2109,FP,Corn Meal,200
+2123,FP,Rice,300
+2125,FP,Oats,335
+3212,BL,Cement,2000
+3223,BL,Concrete Forms,500
+3297,BL,Steel Beam,2000
+3299,BL,Small Steel Plate,750
+4521,WP,"5/8"" Plywood - 200 sheets/pallet",800
+4532,WP,Beam,100
+4533,WP,2x4x8 Pine Boards,250
+4534,WP,"3/4"" Plywood - 200 sheets/pallet",1200
+7821,AUTO,Toyota Camry,2000
+7823,AUTO,Mercury Sable,2500
+7829,AUTO,Mercedes,2550
+7830,AUTO,Honda Accordq,1960
